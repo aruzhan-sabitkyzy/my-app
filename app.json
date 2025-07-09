@@ -2,6 +2,8 @@
   "expo": {
     "name": "Aruzhan Learning App",
     "slug": "aruzhanlearningapp",
+    "name": "Aruzhan Learning App",
+    "slug": "aruzhanlearningapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,11 +16,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.aruzhan.learning.expo.app",
-      "buildNumber": "1",
-      "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
-      }
+      "bundleIdentifier": "com.anonymous.myapp"
     },
     "android": {
       "adaptiveIcon": {
@@ -36,6 +34,7 @@
       "eas": {
         "projectId": "c29a78e9-63fd-4b78-94ca-7a19b2082705"
       }
-    }
+    },
+    "owner": "aruzhansab"
   }
 }
