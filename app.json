@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
+    "name": "Aruzhan Learning App",
+    "slug": "aruzhanlearningapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,7 +14,11 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.myapp"
+      "bundleIdentifier": "com.aruzhan.learning.expo.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -22,16 +26,16 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.anonymous.myapp"
+      "package": "com.aruzhan.learning.expo.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "owner": "vention-aruzhan",
     "extra": {
       "eas": {
-        "projectId": "3236eb90-f726-4426-8d2c-7642b72db532"
+        "projectId": "c29a78e9-63fd-4b78-94ca-7a19b2082705"
       }
-    },
-    "owner": "aruzhansab"
+    }
   }
 }

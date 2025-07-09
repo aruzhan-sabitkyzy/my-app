@@ -4,6 +4,12 @@
     "appVersionSource": "remote"
   },
   "build": {
+    "staging": {
+      "distribution": "internal",
+      "ios": {
+        "simulator": false
+      }
+    },
     "development": {
       "developmentClient": true,
       "distribution": "internal"
@@ -16,6 +22,11 @@
     }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "ios": {
+        "appleId": "arusabitkyzy03@mail.ru",
+        "ascAppId": "6748220734"
+      }
+    }
   }
 }
